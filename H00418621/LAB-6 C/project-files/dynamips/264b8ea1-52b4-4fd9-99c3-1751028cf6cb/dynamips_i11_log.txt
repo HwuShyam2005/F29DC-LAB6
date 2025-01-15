@@ -1,0 +1,52 @@
+Nov 08 10:03:02.832 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 08 10:03:02.834 HYPERVISOR: Started on IP = localhost, TCP port = 50311.
+Nov 08 10:03:03.310 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 08 10:03:03.311 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\user\GNS3\projects\LAB-6 C\project-files\dynamips 
+Nov 08 10:03:03.312 GENERAL: working_dir=C:\Users\user\GNS3\projects\LAB-6 C\project-files\dynamips
+Nov 08 10:03:03.312 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\user\GNS3\projects\LAB-6 C\project-files\dynamips\c3bea828-e803-4f65-aec5-9ea975421b26 
+Nov 08 10:03:03.313 GENERAL: working_dir=C:\Users\user\GNS3\projects\LAB-6 C\project-files\dynamips\c3bea828-e803-4f65-aec5-9ea975421b26
+Nov 08 10:03:03.314 HYPERVISOR: exec_cmd: vm create R6 6 c3600 
+Nov 08 10:03:03.316 VM: VM R6 created.
+Nov 08 10:03:03.317 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5122 
+Nov 08 10:03:03.317 HYPERVISOR: exec_cmd: c3600 get_mac_addr R6 
+Nov 08 10:03:03.319 HYPERVISOR: exec_cmd: vm set_exec_area R6 64 
+Nov 08 10:03:03.321 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/user/GNS3/images/IOS/c3640-jk9o3s-mz.124-16a.image 
+Nov 08 10:03:03.322 HYPERVISOR: exec_cmd: c3600 set_mac_addr R6 cc06.19a4.0000 
+Nov 08 10:03:03.323 HYPERVISOR: exec_cmd: vm set_nvram R6 256 
+Nov 08 10:03:03.324 HYPERVISOR: exec_cmd: vm set_ram R6 192 
+Nov 08 10:03:03.325 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 08 10:03:03.325 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 0 NM-1FE-TX 
+Nov 08 10:03:03.326 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 08 10:03:03.326 HYPERVISOR: exec_cmd: vm slot_add_binding R6 1 0 NM-1FE-TX 
+Nov 08 10:03:03.327 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 08 10:03:03.328 HYPERVISOR: exec_cmd: vm slot_add_binding R6 2 0 NM-1FE-TX 
+Nov 08 10:03:03.328 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 08 10:03:03.329 HYPERVISOR: exec_cmd: vm slot_add_binding R6 3 0 NM-1FE-TX 
+Nov 08 10:03:15.992 HYPERVISOR: exec_cmd: nio create_udp udp-e96d8691-c3ad-45eb-b998-7f84dca87a35 10042 127.0.0.1 10043 
+Nov 08 10:03:16.851 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 0 udp-e96d8691-c3ad-45eb-b998-7f84dca87a35 
+Nov 08 10:03:16.852 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 08 10:03:17.013 HYPERVISOR: exec_cmd: nio create_udp udp-c295fe5f-350a-42f9-9fba-6f31c0b93a85 10046 127.0.0.1 10047 
+Nov 08 10:03:17.018 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 1 0 udp-c295fe5f-350a-42f9-9fba-6f31c0b93a85 
+Nov 08 10:03:17.020 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 08 10:05:47.130 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+Nov 08 10:05:47.151 HYPERVISOR: exec_cmd: vm set_ghost_file R6 C:\Users\user\GNS3\projects\LAB-6 C\project-files\dynamips\c3640-jk9o3s-mz.124-16a.image-192.ghost 
+Nov 08 10:05:47.152 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 08 10:05:47.176 HYPERVISOR: exec_cmd: vm set_config R6 configs\i6_startup-config.cfg 
+Nov 08 10:05:47.176 HYPERVISOR: exec_cmd: vm start R6 
+Nov 08 10:06:17.553 HYPERVISOR: exec_cmd: vm extract_config R6 
+Nov 08 10:51:48.389 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 08 10:51:48.390 HYPERVISOR: exec_cmd: vm stop R6 
+Nov 08 10:51:48.546 VM: VM R6 shutdown.
+Nov 08 10:51:48.556 HYPERVISOR: exec_cmd: vm extract_config R6 
+Nov 08 10:52:32.372 HYPERVISOR: exec_cmd: vm set_ghost_status R6 2 
+Nov 08 10:52:32.376 HYPERVISOR: exec_cmd: vm set_ghost_file R6 C:\Users\user\GNS3\projects\LAB-6 C\project-files\dynamips\c3640-jk9o3s-mz.124-16a.image-192.ghost 
+Nov 08 10:52:32.380 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 08 10:52:32.398 HYPERVISOR: exec_cmd: vm set_config R6 configs\i6_startup-config.cfg 
+Nov 08 10:52:32.400 HYPERVISOR: exec_cmd: vm start R6 
+Nov 08 10:53:06.446 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 08 10:53:06.447 HYPERVISOR: exec_cmd: vm stop R6 
+Nov 08 10:53:06.603 VM: VM R6 shutdown.
+Nov 08 10:53:06.667 HYPERVISOR: exec_cmd: vm extract_config R6 
+Nov 08 10:53:07.858 HYPERVISOR: Stopped.
+Nov 08 10:53:07.858 VM: VM R6 destroyed.
+Nov 08 10:53:07.860 GENERAL: reset done.
